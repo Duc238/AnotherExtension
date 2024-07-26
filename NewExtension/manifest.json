@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Duc Vo extention",
+  "version": "1.0.0.0",
+  "description": "Test extension",
+  "icons": {
+    "16": "images/Buddha.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
